@@ -38,11 +38,11 @@ Config.Locations = { -- Edit the various interaction points for players or creat
 	    [2] = vector3(-254.54, 6331.78, 32.43), -- paleto
     },
     ["duty"] = {
-        [1] = vector3(311.18, -599.25, 43.29),
+        [1] = vector3(311.16, -596.98, 43.28),
         [2] = vector3(-254.88, 6324.5, 32.58),
     },
     ["vehicle"] = {
-        [1] = vector4(294.578, -574.761, 43.179, 35.79),
+        [1] = vector4(295.38, -584.08, 43.51, 342.14),
         [2] = vector4(-234.28, 6329.16, 32.15, 222.5),
     },
     ["helicopter"] = {
@@ -50,17 +50,17 @@ Config.Locations = { -- Edit the various interaction points for players or creat
         [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
     },
     ["armory"] = {
-        [1] = vector3(309.93, -602.94, 43.29),
+        [1] = vector3(306.90, -601.51, 43.2),
         [2] = vector3(-245.13, 6315.71, 32.82),
     },
     ["roof"] = {
         [1] = vector4(338.5, -583.85, 74.16, 245.5),
     },
     ["main"] = {
-        [1] = vector3(298.74, -599.33, 43.29),
+        [1] = vector3(298.44, -599.7, 43.29),
     },
     ["stash"] = {
-        [1] = vector3(309.78, -596.6, 43.29),
+        [1] = vector3(298.96, -598.18, 43.28),
     },
     ["beds"] = {
         [1] = {coords = vector4(353.1, -584.6, 43.11, 152.08), taken = false, model = 1631638868},
@@ -90,24 +90,43 @@ Config.Locations = { -- Edit the various interaction points for players or creat
 Config.AuthorizedVehicles = { -- Vehicles players can use based on their ambulance job grade level
 	-- Grade 0
 	[0] = {
-		["ambulance"] = "Ambulance",
+       ["ambutouran2016"] = "Ambulance touran",
+       ["police3"] = "Ambulance audi",
+
 	},
 	-- Grade 1
 	[1] = {
-		["ambulance"] = "Ambulance",
-
+        ["ambuvito"] = "Ambulance vito",
+        ["ambutouran2016"] = "Ambulance touran",
+        ["police3"] = "Ambulance audi",
+	["ambue"] = "Ambulance E-klasse",
 	},
 	-- Grade 2
 	[2] = {
-		["ambulance"] = "Ambulance",
+	["ambue"] = "Ambulance E-klasse",
+        ["ambutouran2016"] = "Ambulance touran",
+        ["ambulance"] = "Ambulance sprinter",
+        ["police3"] = "Ambulance audi",
+        ["ambuvito"] = "Ambulance vito",
 	},
 	-- Grade 3
 	[3] = {
-		["ambulance"] = "Ambulance",
+	["ambue"] = "Ambulance E-klasse",
+        ["ambutouran2016"] = "Ambulance touran",
+        ["ambulance"] = "Ambulance sprinter",
+        ["police3"] = "Ambulance audi",
+        ["ambuvito"] = "Ambulance vito",
+        ["ambumotor"] = "Ambulance motor",
+
 	},
 	-- Grade 4
 	[4] = {
-		["ambulance"] = "Ambulance",
+	["ambue"] = "Ambulance E-klasse",
+        ["ambutouran2016"] = "Ambulance touran",
+        ["ambulance"] = "Ambulance sprinter",
+        ["police3"] = "Ambulance audi",
+        ["ambuvito"] = "Ambulance vito",
+        ["ambumotor"] = "Ambulance motor",
 	}
 }
 
